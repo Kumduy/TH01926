@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="KTNC_TH01926_Final:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>KTNC_TH01926_Final</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="KTNC_TH01926_Final-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="KTNC_TH01926_Final:war exploded" />
+    </root>
+  </artifact>
+</component>
