@@ -21,12 +21,12 @@
 //        chromeDriver = new ChromeDriver(options);
 //    }
 //
-////    @AfterEach
-////    public void tearDown() {
-////        if (chromeDriver != null) {
-////            chromeDriver.quit();
-////        }
-////    }
+//    @AfterEach
+//    public void tearDown() {
+//        if (chromeDriver != null) {
+//            chromeDriver.quit();
+//        }
+//    }
 //
 //    @Test
 //    public void dangky() throws InterruptedException {
@@ -35,8 +35,6 @@
 //        chromeDriver.findElement(By.xpath("//input[@id='password']")).sendKeys("TH01926duy");
 //        chromeDriver.findElement(By.xpath("//input[@id='login']")).sendKeys("TH01926duy");
 //        chromeDriver.findElement(By.xpath("//button[@class='js-octocaptcha-load-captcha signup-form-fields__button Button--primary Button--medium Button Button--fullWidth']")).click();
-//        Thread.sleep(3000);
-//
 //    }
 //
 //    @Test

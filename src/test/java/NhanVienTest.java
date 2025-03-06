@@ -36,5 +36,4 @@ public class NhanVienTest {
     public void testNV6(){
         Assertions.assertThrows(NullPointerException.class, () -> nhanVienService.updateNhanVien(null, null, null, null, null, null));
     }
-
 }
